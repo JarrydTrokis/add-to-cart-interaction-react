@@ -1,0 +1,11 @@
+body {
+  font-family: source sans pro, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: #2b3e51;
+  background-color: #ecf0f1;
+}
+
+h1 {
+  font-weight: 100;
+}

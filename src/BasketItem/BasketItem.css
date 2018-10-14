@@ -1,0 +1,50 @@
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product + .product {
+  margin-top: 10px;
+}
+
+.product-img {
+  margin-right: 1em;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.product-body {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.actions .delete-item {
+  color: #808b97;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.select {
+  position: relative;
+  padding: 0 1em 0 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: 0 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1.4rem;
+  margin: 0;
+  color: #808b97;
+}
